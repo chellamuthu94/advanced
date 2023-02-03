@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-03T15:28:21 IST" name="Default suite" finished-at="2023-02-03T15:28:33 IST" duration-ms="11716">
+    <groups>
+    </groups>
+    <test started-at="2023-02-03T15:28:21 IST" name="Default test" finished-at="2023-02-03T15:28:33 IST" duration-ms="11716">
+      <class name="stepcalender.keyaction">
+        <test-method signature="i_want_to_verify_the_keyword()[pri:0, instance:stepcalender.keyaction@59505b48]" started-at="2023-02-03T15:28:21 IST" name="i_want_to_verify_the_keyword" finished-at="2023-02-03T15:28:33 IST" duration-ms="11635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_want_to_verify_the_keyword -->
+      </class> <!-- stepcalender.keyaction -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

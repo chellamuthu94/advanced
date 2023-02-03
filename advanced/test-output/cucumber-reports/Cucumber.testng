@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="1" passed="0" skipped="0" total="1">
+    <suite duration-ms="11930" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="11930" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="validation of calender">
+                <test-method duration-ms="11661" finished-at="2023-02-02T13:10:21.007063100Z" name="Title of your scenario" started-at="2023-02-02T13:10:09.339638100Z" status="FAIL">
+                    <exception class="java.lang.NullPointerException">
+                        <message><![CDATA[Given I want to verify the calender.........................................passed
+When automate the months and years..........................................failed
+]]></message>
+                        <full-stacktrace><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.findElement(org.openqa.selenium.By)" because "stepcalender.calender.driver" is null
+	at stepcalender.calender.automate_the_months_and_years(calender.java:38)
+	at ✽.automate the months and years(file:///C:/Users/DELL/eclipse-workspace/advanced/src/test/resources/feature/calender.feature:10)
+]]></full-stacktrace>
+                    </exception>
+                </test-method>
+            </class>
+        </test>
+    </suite>
+</testng-results>
