@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stepcalender.calender">
+      <class name="stepcalender.action">
         <methods>
-          <include name="automate_the_months_and_years"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- stepcalender.calender -->
+      </class> <!-- stepcalender.action -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

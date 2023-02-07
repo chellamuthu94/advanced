@@ -20,7 +20,7 @@ public class upload {
 	driver.findElement(By.xpath("//*[@id='ctrlq-file-5-temp']")).click();
 String	file ="C:\\Users\\DELL\\Downloads\\selenium_course_content (1).pdf";
 StringSelection selection= new StringSelection(file);
-	Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
+Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
 	
 Robot robot = new Robot();
 robot.keyPress(KeyEvent.VK_CONTROL);
